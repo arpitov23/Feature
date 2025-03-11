@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\String\\String_class_imp_without_lib_fun\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3265C71-0127-46D8-ADC9-0384F3766ECF}|String_class_imp_without_lib_fun.vcxproj|C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\String\\String_class_imp_without_lib_fun\\String_class_imp_without_lib_fun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C3265C71-0127-46D8-ADC9-0384F3766ECF}|String_class_imp_without_lib_fun.vcxproj|solutionrelative:String_class_imp_without_lib_fun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "String_class_imp_without_lib_fun.cpp",
+              "DocumentMoniker": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\String\\String_class_imp_without_lib_fun\\String_class_imp_without_lib_fun.cpp",
+              "RelativeDocumentMoniker": "String_class_imp_without_lib_fun.cpp",
+              "ToolTip": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\String\\String_class_imp_without_lib_fun\\String_class_imp_without_lib_fun.cpp",
+              "RelativeToolTip": "String_class_imp_without_lib_fun.cpp",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-11T09:45:22.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

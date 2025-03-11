@@ -1,0 +1,8 @@
+﻿  String_class_imp_without_lib_fun.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 24 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  String_class_imp_without_lib_fun.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\String\String_class_imp_without_lib_fun\x64\Release\String_class_imp_without_lib_fun.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

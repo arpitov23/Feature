@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Unique_ptr\\unique_ptr_internal_implementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04524CB0-425F-43B6-A0EF-C5F864C6ECAB}|unique_ptr_internal_implementation.vcxproj|C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Unique_ptr\\unique_ptr_internal_implementation\\unique_ptr_internal_implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04524CB0-425F-43B6-A0EF-C5F864C6ECAB}|unique_ptr_internal_implementation.vcxproj|solutionrelative:unique_ptr_internal_implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "unique_ptr_internal_implementation.cpp",
+              "DocumentMoniker": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Unique_ptr\\unique_ptr_internal_implementation\\unique_ptr_internal_implementation.cpp",
+              "RelativeDocumentMoniker": "unique_ptr_internal_implementation.cpp",
+              "ToolTip": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Unique_ptr\\unique_ptr_internal_implementation\\unique_ptr_internal_implementation.cpp",
+              "RelativeToolTip": "unique_ptr_internal_implementation.cpp",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwF8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T17:49:44.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
