@@ -1,0 +1,10 @@
+﻿  Pair_with_given_sum.cpp
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Pair_with_given_sum\Pair_with_given_sum.cpp(29,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  2 of 118 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pair_with_given_sum.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Pair_with_given_sum\x64\Release\Pair_with_given_sum.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
