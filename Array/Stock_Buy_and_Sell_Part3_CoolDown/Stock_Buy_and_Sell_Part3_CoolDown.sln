@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stock_Buy_and_Sell_Part3_CoolDown", "Stock_Buy_and_Sell_Part3_CoolDown.vcxproj", "{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Debug|x64.ActiveCfg = Debug|x64
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Debug|x64.Build.0 = Debug|x64
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Debug|x86.ActiveCfg = Debug|Win32
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Debug|x86.Build.0 = Debug|Win32
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Release|x64.ActiveCfg = Release|x64
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Release|x64.Build.0 = Release|x64
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Release|x86.ActiveCfg = Release|Win32
+		{E40F7B96-1AF6-4FCC-B355-874D0BE6AB29}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E9A4FF9-3804-4F1C-BB26-81B36B579143}
+	EndGlobalSection
+EndGlobal
