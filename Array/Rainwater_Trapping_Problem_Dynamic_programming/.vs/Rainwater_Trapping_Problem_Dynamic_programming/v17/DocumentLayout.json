@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Rainwater_Trapping_Problem_Dynamic_programming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3044D372-2DAC-4234-93D4-B3D19C25403F}|Rainwater_Trapping_Problem_Dynamic_programming.vcxproj|C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Rainwater_Trapping_Problem_Dynamic_programming\\Rainwater_Trapping_Problem_Dynamic_programming.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3044D372-2DAC-4234-93D4-B3D19C25403F}|Rainwater_Trapping_Problem_Dynamic_programming.vcxproj|solutionrelative:Rainwater_Trapping_Problem_Dynamic_programming.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rainwater_Trapping_Problem_Dynamic_programming.cpp",
+              "DocumentMoniker": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Rainwater_Trapping_Problem_Dynamic_programming\\Rainwater_Trapping_Problem_Dynamic_programming.cpp",
+              "RelativeDocumentMoniker": "Rainwater_Trapping_Problem_Dynamic_programming.cpp",
+              "ToolTip": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Rainwater_Trapping_Problem_Dynamic_programming\\Rainwater_Trapping_Problem_Dynamic_programming.cpp",
+              "RelativeToolTip": "Rainwater_Trapping_Problem_Dynamic_programming.cpp",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAKQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T18:50:49.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
