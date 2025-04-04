@@ -1,0 +1,10 @@
+﻿  Longest_consecutive_sequence_array.cpp
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Longest_consecutive_sequence_array\Longest_consecutive_sequence_array.cpp(51,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  0 of 229 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Longest_consecutive_sequence_array.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Longest_consecutive_sequence_array\x64\Release\Longest_consecutive_sequence_array.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

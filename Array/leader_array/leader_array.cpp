@@ -1,6 +1,17 @@
 // leader_array.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+/*
+
+Problem Statement - leader in the array 
+Description - Leader mean ?
+
+    Leader mean is everything on the right should be smaller
+    Ex - input : {10,22,12,3,0,6}
+         output : {22,12,6}
+
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -24,7 +35,7 @@ void find_leader(int arr[], int& n)
             leaders[count++] = max_right;
         }
     }
-
+    // ---- After for loop element stored in - {6,12,22} - but someone requirement is like to print in reverse order then below code is required.
     // printing in reverse order (since we traverse from right to left)
 
     for (int i = count - 1; i >= 0; i--)

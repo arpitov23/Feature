@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Longest_consecutive_sequence_array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB65AB5-F1FB-4927-AA5B-BDA09FC7C7C7}|Longest_consecutive_sequence_array.vcxproj|C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Longest_consecutive_sequence_array\\Longest_consecutive_sequence_array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CB65AB5-F1FB-4927-AA5B-BDA09FC7C7C7}|Longest_consecutive_sequence_array.vcxproj|solutionrelative:Longest_consecutive_sequence_array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Longest_consecutive_sequence_array.cpp",
+              "DocumentMoniker": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Longest_consecutive_sequence_array\\Longest_consecutive_sequence_array.cpp",
+              "RelativeDocumentMoniker": "Longest_consecutive_sequence_array.cpp",
+              "ToolTip": "C:\\Users\\z004f3rj\\Documents\\Laptop Data\\Learning_Material\\Feature\\Array\\Longest_consecutive_sequence_array\\Longest_consecutive_sequence_array.cpp",
+              "RelativeToolTip": "Longest_consecutive_sequence_array.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-04T09:23:04.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
