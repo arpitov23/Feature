@@ -1,5 +1,13 @@
 // Container_with_most_water.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+/*
+
+------------  Important point -------------
+
+1. Every vertical line is equally spread by 1 unit.
+2. 2 variable define container size - left & right and width
+3. Volume of water = min(left, right) * width ------------------------- width - distance between 2 index or heigth
+4. 1 bar will always be included in full (amount of left and right)
 
 /*
 ------- Problem Statement ------------
@@ -14,6 +22,9 @@ lines is the difference in their indices. Your task is to find the maximum area 
 The area between two lines is calculated as : Area = min( height[i], height[j] * (j-i)) , where i and j are indices of the two lines.
 
 ------------ approach : Two-pointer approach: ----------
+
+Ques - Why 2 pointer ?
+Answ - At least 1 bar (smaller of 2 ) is included till it's full height.
 
 -> Start with two pointers: one at the beginning (left) and one at the end (right) of the array.
 -> Calculate the area between the lines at the left and right pointers.
