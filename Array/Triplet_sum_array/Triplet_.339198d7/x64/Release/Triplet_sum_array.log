@@ -1,0 +1,9 @@
+﻿  Triplet_sum_array.cpp
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Triplet_sum_array\Triplet_sum_array.cpp(11,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 116 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Triplet_sum_array.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\Triplet_sum_array\x64\Release\Triplet_sum_array.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
