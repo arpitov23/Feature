@@ -1,0 +1,10 @@
+﻿  find_the_number_that_appears_once_other_appers_twice.cpp
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\find_the_number_that_appears_once_other_appers_twice\find_the_number_that_appears_once_other_appers_twice.cpp(12,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  2 of 177 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  find_the_number_that_appears_once_other_appers_twice.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\Array\find_the_number_that_appears_once_other_appers_twice\x64\Release\find_the_number_that_appears_once_other_appers_twice.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
