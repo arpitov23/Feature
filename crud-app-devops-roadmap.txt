@@ -1,0 +1,50 @@
+C++ CRUD APP 
+--------------------------------------------------------------------------
+Week 1-2 
+--------------
+1) Design a crud application using C++ (preferably microservice design)
+2) Integrate DB. Design CRUD operations. 
+
+Week 3-4
+--------------
+3) Dockerize the application using Dockerfile. 
+	Browse hub.docker.com ---> community images
+	
+Week 5-6
+--------------
+4) Design CI/CD - Build, Test, Package, Artifact Archive, Deploy 
+	Jenkins
+5) Design decalarative deploy scripts(.yaml) 
+
+Week 7-8
+--------------
+6) Understand Cluster Basics (Kubernetes, OpenShift, EKS, AKS)
+
+Week 9
+--------------
+7) Deploy Applications to cluster - Manual 
+
+Week 10
+--------------
+8) Deploy Applications to cluster - via CI/CD
+
+Week 11-12
+--------------
+9) Continuous Monitoring
+	1. Prometheus 
+	2. Grafana
+	
+Week 13-14
+--------------
+10) Continouos Logging
+	1. ELK - ElasticSearch, Logstash, Kibana
+	2. Filebeat, MetricBeat, FluentBit, Logrotate 
+	3. Log Archival - Graylog 
+	
+Week 15-17
+--------------
+11) Cloud basics (SaaS, PaaS, IaaS)
+
+Week 18-20
+--------------
+12) Deploy everything to cloud using ARM, CFT, Terraform (IaaC)
