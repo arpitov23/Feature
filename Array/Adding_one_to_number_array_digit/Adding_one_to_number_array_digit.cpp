@@ -31,7 +31,10 @@ vector<int> add_one(vector<int>&arr, int n)
 int main()
 {
 
-    vector<int>arr = { 9,1,9,9,5 };
+    vector<int>arr = { 9,1,9,9,5 };  // output - 91996
+   // vector<int>arr = { 9,9,9,9,9 };  // output - 100000
+  //  vector<int>arr = { 9,1,9,9,9 };  // output - 92000 
+   // vector<int>arr = { 0,0,0,0,0 };  // output - 00001 , 
     int n = arr.size();
     vector<int> res = add_one(arr, n);
     for(auto res_it :res)

@@ -20,8 +20,10 @@ bool triplet_sum(vector<int>&arr,int target)
         
         while (left < right)
         {
-            if (arr[left] + arr[right] == required_sum)
+            if (arr[left] + arr[right] == required_sum) {
+                std::cout << arr[left] << " " << arr[right] << " " << arr[i] << std::endl;
                 return true;
+            }
             
             if (arr[left] + arr[right] < required_sum)
                 left++;
@@ -34,7 +36,7 @@ bool triplet_sum(vector<int>&arr,int target)
 }
 int main()
 {
-    vector<int> arr = { 1, 4, 45, 6, 10, 8 };
+    vector<int> arr = { 1, 4, 45, 6, 10,51, 9 ,8 };
    
     int target = 13;
     bool res = triplet_sum(arr, target);

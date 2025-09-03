@@ -33,40 +33,42 @@ at index i simply means the sum of all the elements of that subarray.
 #include <map>
 using namespace std;
 
-int find_all_subarray_with_given_sum(vector<int>& arr, int target)
+// sliding window technique
+
+void find_all_subarray_or_count_subarray(vector<int>& arr, int k)
 {
     int n = arr.size();
-    map<int, int> mpp;
-    int preSum = 0;
-    int cnt = 0;
-
-    mpp[0] = 1; // setting 0 in the map
+    int sum = 0;
+    int start = 0;
+    int count = 0;
+    bool found = false;
 
     for (int i = 0; i < n; i++)
     {
-        // add current element to prefix sum
-        preSum = preSum + arr[i];
+        sum = sum + arr[i];
+		while (sum > k && start < i) {
+			sum = sum - arr[start];
+			start++;
+		}
 
-        // calculate x-target
+		if (sum == k) {
+            count++;
+			found = true;
+			cout << "Subarray found from index " << start << " to " << i << "\n";
+		}
 
-        int remove = preSum - target;
-
-        // add the number of subarrays to be removed
-        cnt = cnt + mpp[remove];
-
-        //update the count of prefix sum in the map 
-
-        mpp[preSum] = mpp[preSum] + 1;
+        
     }
-    return cnt;
+	cout << "Total subarrays with sum " << k << ": " << count << "\n";
 }
+
 
 int main()
 {
-    vector <int>arr = { 3, 1, 2, 4 };
-    int k = 6;
-    int cnt = find_all_subarray_with_given_sum(arr, k);
-    cout << "The number of subarrays is: " << cnt << "\n";
+    vector <int>arr = { 11,12,5,6,3,2,9,-1};
+    int k = 11;
+    find_all_subarray_or_count_subarray(arr,  k);
+
     return 0;
 }
 
