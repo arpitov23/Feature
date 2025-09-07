@@ -1,0 +1,7 @@
+﻿  Reverse_string_all_way.cpp
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\String\Reverse_string_all_way\Reverse_string_all_way.cpp(22,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\String\Reverse_string_all_way\Reverse_string_all_way.cpp(23,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\String\Reverse_string_all_way\Reverse_string_all_way.cpp(40,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Reverse_string_all_way.vcxproj -> C:\Users\z004f3rj\Documents\Laptop Data\Learning_Material\Feature\String\Reverse_string_all_way\x64\Debug\Reverse_string_all_way.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

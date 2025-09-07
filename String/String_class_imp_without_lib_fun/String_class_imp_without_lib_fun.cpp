@@ -37,33 +37,50 @@ public:
 
 	//Helper function to concatenate the string
 
-	void concatenate_string(char* dest, const char* src)
+	bool concatenate_string(char* dest, const char* src)
 	{
-		int len = 0;
-		while (dest[len] != '\0')
-		{
-			len++;
+		
+		int dest_capacity = 20; // Assuming a fixed capacity for the destination string
+		// Check for null pointers
+		if (dest == nullptr || src == nullptr) {
+			return false;
 		}
-		int len_j = 0;
-		while (src[len_j] != '\0')
-		{
-			dest[len] = src[len_j];
-			len++;
-			len_j++;
-		}
-		dest[len] = '\0';
-	}
 
-	
+		// Find length of destination string
+		int len = 0;
+		while (dest[len] != '\0' && len < dest_capacity) {
+			len++;
+		}
+
+		// Check if destination has enough space
+		int src_len = 0;
+		while (src[src_len] != '\0') {
+			src_len++;
+		}
+
+		// Check if destination buffer can hold concatenated string
+		if (len + src_len + 1 > dest_capacity) {
+			return false; // Not enough space (including null terminator)
+		}
+
+		// Copy source to destination
+		for (int i = 0; i < src_len; i++) {
+			dest[len + i] = src[i];
+		}
+
+		// Add null terminator
+		dest[len + src_len] = '\0';
+		return true; // Concatenation successful
+	}
 		//default constructor
-		MyString_class()
-		{
+	MyString_class()
+	{
 			str = NULL;
 			len = 0;
-		}
+	}
 		//parameterized constructor
-		MyString_class(const char* s)
-		{
+	MyString_class(const char* s)
+	{
 			if (s == nullptr)
 			{
 				str = new char[1];
@@ -73,29 +90,29 @@ public:
 			else {
 				len = calc_len(s);
 				str = new char[len + 1];
-				concatenate_string(str, s);
+				copy_string(str, s);
 			}
-		}
+	}
 		//copy constructor
-		MyString_class(const MyString_class& source)
-		{
+	MyString_class(const MyString_class& source)
+	{
 			len = source.len;
 			str = new char[len + 1];
 			copy_string(str, source.str);
-		}
+	}
 
 		//Move constructor
-		MyString_class(MyString_class&& source)
-		{
+	MyString_class(MyString_class&& source)
+	{
 			len = source.len;
 			str = source.str;
 			source.len = 0;
 			source.str = nullptr;
 
-		}
+	}
 		// Assignment operator
-		MyString_class& operator=(const MyString_class& source)
-		{
+	MyString_class& operator=(const MyString_class& source)
+	{
 			if (this == &source)
 			{
 				return *this;
@@ -105,11 +122,11 @@ public:
 			str = new char[len + 1];
 			copy_string(str, source.str);
 			return *this;
-		}
+	}
 
 		//Move assignment operator
-		MyString_class& operator=(MyString_class&& source)
-		{
+	MyString_class& operator=(MyString_class&& source)
+	{
 			if (this == &source)
 			{
 				return *this;
@@ -120,29 +137,29 @@ public:
 			source.len = 0;
 			source.str = nullptr;
 			return *this;
-		}
+	}
 
 		// destructor
-		~MyString_class()
-		{
+	~MyString_class()
+	{
 			delete[] str;
-		}
+	}
 
 		// display function
-		void display() 
-		{
+	void display() 
+	{
 			std::cout << str << endl;
-		}
+	}
 
 		// length function
-		int length()
-		{
+	int length()
+	{
 			return len;
-		}
+	}
 
 		//append function 
-		MyString_class& append(const MyString_class& source)
-		{
+	MyString_class& append(const MyString_class& source)
+	{
 			char* tmo = new char[len + source.len + 1];
 			copy_string(tmo, str);
 
@@ -152,11 +169,11 @@ public:
 			len = len + source.len;
 			return *this;
 
-		}
+	}
 
 		// push_back function 
-		void push_back(char ch)
-		{
+	void push_back(char ch)
+	{
 			char* tmo = new char[len + 2];
 			copy_string(tmo, str);
 			tmo[len] = ch;
@@ -164,11 +181,11 @@ public:
 			delete[] str;
 			str = tmo;
 			len++;
-		}
+	}
 		
 		// pop_back function
-		void pop_back()
-		{
+	void pop_back()
+	{
 			if (len == 0)
 			{
 				return;
@@ -182,11 +199,11 @@ public:
 			delete[] str;
 			str = tmo;
 			len--;
-		}
+	}
 
 		// swap function 
-		void swap_string(MyString_class& source)
-		{
+	void swap_string(MyString_class& source)
+	{
 					char* tmo = str;
 					str = source.str;
 					source.str = tmo;
@@ -194,36 +211,48 @@ public:
 					int tmo_len = len;
 					len = source.len;
 					source.len = tmo_len;
-		}
+	}
 		//operator overloading
-		MyString_class& operator+(const MyString_class& source)
-		{
+	MyString_class& operator+(const MyString_class& source)
+	{
 			return append(source);
-		}
+	}
 
 		//assignment operator overloading
-		MyString_class& operator+=(const MyString_class& source)
-		{
+	MyString_class& operator+=(const MyString_class& source)
+	{
 			return append(source);
-		}
+	}
 		
 };
 
 int main()
 {
 	MyString_class str1;
-	MyString_class str2 = "Arpit";
+	MyString_class str2 = "Sharma";
 	MyString_class str3 = str2;
-	MyString_class obj;
+	MyString_class obj = "Bengalurur";
+	
+	// string concatenation
+	str1 = str2 + obj;
+	cout << " After concatenation: ";
+	str1.display();
+	
+
 	int len = obj.calc_len("arpitsharma");
-	std::cout << len << endl;
+	std::cout << "\nlength of string arpitsharma = "<< len << endl;
+	
 	MyString_class str4{ std::move(str2) };
-	str4.display();
-	cout << "====="<<endl;
+	cout << "str4 after move constructor: " << endl;
+	str4.display(); // output  - "Arpit"
+	cout << "\n";
+
 	str4.push_back('!');
+	cout << "After push_back: " << endl;
 	str4.display();
     std::cout << "Hello World!\n";
 	str3.pop_back();
+	cout << "After pop_back: " << endl;
 	str3.display();
 
 }
